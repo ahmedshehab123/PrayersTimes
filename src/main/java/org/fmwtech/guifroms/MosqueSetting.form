@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[0, 0]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+    <Property name="size" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[500, 500]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="270" pref="270" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" pref="173" max="-2" attributes="0"/>
+                      <EmptySpace min="17" pref="17" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" pref="46" max="-2" attributes="0"/>
+                      <EmptySpace min="84" pref="84" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="250" pref="250" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="54" pref="54" max="-2" attributes="0"/>
+                      <Component id="fajrIquama" min="-2" pref="64" max="-2" attributes="0"/>
+                      <EmptySpace min="56" pref="56" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="fajrHour" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="sheroukHour" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="fajrMin" min="-2" pref="80" max="-2" attributes="0"/>
+                          <Component id="shroukMin" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" pref="72" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="250" pref="250" max="-2" attributes="0"/>
+                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="54" pref="54" max="-2" attributes="0"/>
+                      <Component id="douhrIquama" min="-2" pref="64" max="-2" attributes="0"/>
+                      <EmptySpace min="56" pref="56" max="-2" attributes="0"/>
+                      <Component id="dohrHour" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="dohrMin" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Component id="jLabel10" min="-2" pref="57" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="250" pref="250" max="-2" attributes="0"/>
+                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="54" pref="54" max="-2" attributes="0"/>
+                      <Component id="asrIquama" min="-2" pref="64" max="-2" attributes="0"/>
+                      <EmptySpace min="56" pref="56" max="-2" attributes="0"/>
+                      <Component id="asrHour" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="asrMin" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" pref="57" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="250" pref="250" max="-2" attributes="0"/>
+                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="54" pref="54" max="-2" attributes="0"/>
+                      <Component id="magribIquama" min="-2" pref="64" max="-2" attributes="0"/>
+                      <EmptySpace min="56" pref="56" max="-2" attributes="0"/>
+                      <Component id="magribHour" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                      <Component id="magribMin" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="198" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jButton1" min="-2" pref="78" max="-2" attributes="0"/>
+                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="54" pref="54" max="-2" attributes="0"/>
+                              <Component id="isaaIquama" min="-2" pref="64" max="-2" attributes="0"/>
+                              <EmptySpace min="56" pref="56" max="-2" attributes="0"/>
+                              <Component id="isaaHour" min="-2" pref="80" max="-2" attributes="0"/>
+                              <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+                              <Component id="isaaMin" min="-2" pref="80" max="-2" attributes="0"/>
+                              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" pref="59" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="214" max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" pref="118" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="198" max="-2" attributes="0"/>
+                      <Component id="jButton4" min="-2" pref="341" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="244" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Component id="mosqueLocation" min="-2" pref="207" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel3" min="-2" pref="97" max="-2" attributes="0"/>
+                      <EmptySpace pref="141" max="32767" attributes="0"/>
+                      <Component id="mosqueName" min="-2" pref="220" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" pref="122" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel6" min="-2" pref="375" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton3" min="-2" pref="238" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="mosqueName" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="mosqueLocation" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jButton4" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jButton3" min="-2" pref="51" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel6" min="-2" pref="63" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel4" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel7" min="-2" pref="26" max="-2" attributes="0"/>
+                      <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel5" min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="fajrIquama" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="fajrHour" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="sheroukHour" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="fajrMin" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="shroukMin" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel18" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="douhrIquama" min="-2" max="-2" attributes="0"/>
+                          <Component id="dohrHour" min="-2" max="-2" attributes="0"/>
+                          <Component id="dohrMin" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel11" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel16" min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="asrIquama" min="-2" max="-2" attributes="0"/>
+                          <Component id="asrHour" min="-2" max="-2" attributes="0"/>
+                          <Component id="asrMin" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel17" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="magribIquama" min="-2" max="-2" attributes="0"/>
+                  <Component id="magribHour" min="-2" max="-2" attributes="0"/>
+                  <Component id="magribMin" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="19" pref="19" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel15" min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="isaaIquama" min="-2" max="-2" attributes="0"/>
+                  <Component id="isaaHour" min="-2" max="-2" attributes="0"/>
+                  <Component id="isaaMin" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="69" pref="69" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" pref="41" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="42" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x631;&#x62d;&#x648;&#x639;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x62d;&#x641;&#x638;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x62f;&#x642;&#x64a;&#x642;&#x629;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="isaaIquama">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.SpinnerNumberModel(pt.getIsaaIquama(), 5, 60, 1)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="isaaHour">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] isaaHourpartsHours=pt.getIsaaTime().toString().split(&quot;:&quot;);&#xa;String isaaHourFormated=isaaHourpartsHours[0];"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="isaaHour.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(isaaHourFormated),0 , 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="isaaMin">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] isaaMinparts=pt.getIsaaTime().toString().split(&quot;:&quot;);&#xa;String isaaMinFormated=isaaMinparts[1];"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="isaaMin.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(isaaMinFormated),0 , 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x639;&#x634;&#x627;&#x621;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x62f;&#x642;&#x64a;&#x642;&#x629;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="magribIquama">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.SpinnerNumberModel(pt.getMagribIquama(), 5, 60, 1)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="magribHour">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] magribHourpartsHours=pt.getMagribTime().toString().split(&quot;:&quot;);&#xa;String magribHourFormated=magribHourpartsHours[0];"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="magribHour.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(magribHourFormated),0 , 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="magribMin">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] magribMinparts=pt.getMagribTime().toString().split(&quot;:&quot;);&#xa;String magribMinFormated=magribMinparts[1];"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="magribMin.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(magribMinFormated),0 , 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x63a;&#x631;&#x628;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x62f;&#x642;&#x64a;&#x642;&#x629;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="asrIquama">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.SpinnerNumberModel(pt.getAsrIquama(), 5, 60, 1)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="asrHour">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] asrHourpartHours=pt.getAsrTime().toString().split(&quot;:&quot;);&#xa;String asrHourFormated=asrHourpartHours[0];"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="asrHour.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(asrHourFormated), 0, 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="asrMin">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="String[] asrMinpartMinutes=pt.getAsrTime().toString().split(&quot;:&quot;);&#xa;String asrMinFormated=asrMinpartMinutes[1];&#xa;&#xa;asrMin.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(asrMinFormated), 0, 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x639;&#x635;&#x631;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x62f;&#x642;&#x64a;&#x642;&#x629;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="douhrIquama">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.SpinnerNumberModel(pt.getDouhrIquama(), 5, 60, 1)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dohrHour">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] dohrtimeparthour=pt.getDouhrTime().toString().split(&quot;:&quot;);&#xa;String dohrHoursFormated=dohrtimeparthour[0];"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="dohrHour.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(dohrHoursFormated), 0, 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="dohrMin">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="String[] dohrtimepartMinutes=pt.toString().split(&quot;:&quot;);&#xa;String dohrMinutesFormated=dohrtimeparthour[1];&#xa;&#xa;dohrMin.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(dohrMinutesFormated), 0, 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x638;&#x647;&#x631;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="sheroukHour">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="String[] sheroukparts=pt.getSheroukTime().toString().split(&quot;:&quot;);&#xa;String sheroukHoursFormated=sheroukparts[0];&#xa;sheroukHour.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(sheroukHoursFormated), 0, 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="shroukMin">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] sheroukminPart=pt.getSheroukTime().toString().split(&quot;:&quot;);&#xa;String sheroukMinFormated=sheroukminPart[1];"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="shroukMin.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(sheroukMinFormated), 0, 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x634;&#x631;&#x648;&#x642;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="fajrHour">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JSpinner()"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="fajrHour.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(fajrHoursFormated),0 , 60, 1));"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] fajrpartsHours=pt.getFajrTime().toString().split(&quot;:&quot;);&#xa;String fajrHoursFormated=fajrpartsHours[0];"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="fajrMin">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="String[] fajrMinutesPart=pt.getFajrTime().toString().split(&quot;:&quot;);&#xa;String fajrMinutesFormated=fajrMinutesPart[1];"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="fajrMin.setModel(new javax.swing.SpinnerNumberModel(Integer.parseInt(fajrMinutesFormated),0, 60, 1));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x641;&#x62c;&#x631;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x62f;&#x642;&#x64a;&#x642;&#x629;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="fajrIquama">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.SpinnerNumberModel(pt.getFajrIquama(), 5, 60, 1)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x648;&#x642;&#x62a; &#x628;&#x64a;&#x646; &#x627;&#x644;&#x635;&#x644;&#x627;&#x647; &#x648;&#x627;&#x644;&#x627;&#x642;&#x627;&#x645;&#x647;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x633;&#x627;&#x639;&#x629;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x62f;&#x642;&#x64a;&#x642;&#x629;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="mosqueLocation">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;&#x627;&#x644;&#x631;&#x64a;&#x627;&#x636;&quot;, &quot;&#x645;&#x643;&#x629; &#x627;&#x644;&#x645;&#x643;&#x631;&#x645;&#x629;&quot;, &quot;&#x627;&#x644;&#x645;&#x62f;&#x64a;&#x646;&#x629; &#x627;&#x644;&#x645;&#x646;&#x648;&#x631;&#x629;&quot;, &quot; &#x627;&#x644;&#x642;&#x635;&#x64a;&#x645;&quot;, &quot;&#x627;&#x644;&#x645;&#x646;&#x637;&#x642;&#x629; &#x627;&#x644;&#x634;&#x631;&#x642;&#x64a;&#x629;&quot;, &quot;&#x639;&#x633;&#x64a;&#x631;&quot;, &quot;&#x62a;&#x628;&#x648;&#x643;&quot;, &quot;&#x62d;&#x627;&#x626;&#x644;&quot;, &quot;&#x62c;&#x627;&#x632;&#x627;&#x646;&quot;, &quot;&#x646;&#x62c;&#x631;&#x627;&#x646;&quot;, &quot;&#x627;&#x644;&#x628;&#x627;&#x62d;&#x629;&quot;, &quot;&#x627;&#x644;&#x62c;&#x648;&#x641;&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox&lt;&gt;()"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x645;&#x648;&#x642;&#x639; &#x627;&#x644;&#x645;&#x633;&#x62c;&#x62f;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="mosqueName">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="KacstArt" size="24" style="0"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mosqueName.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT);&#xa;mosqueName.setText(user.getMosqueName());"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x627;&#x633;&#x645; &#x627;&#x644;&#x645;&#x633;&#x62c;&#x62f;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;&#x625;&#x636;&#x627;&#x641;&#x629; &#x645;&#x648;&#x627;&#x642;&#x64a;&#x62a; &#x627;&#x644;&#x635;&#x644;&#x627;&#x647; &#x645;&#x646; &#x627;&#x644;&#x627;&#x646;&#x62a;&#x631;&#x646;&#x62a;&quot;" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JButton()"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="try {&#xa;            uri = new URI(&quot;http://timesprayer.com/prayer-times-in-riyadh.html&quot;);&#xa;        } catch (URISyntaxException ex) {&#xa;            Logger.getLogger(PrayersTimeDesktopApp.class.getName()).log(Level.SEVERE, null, ex);&#xa;        }&#xa; class OpenUrlAction implements ActionListener {&#xa;      @Override public void actionPerformed(ActionEvent e) {&#xa;        open(uri);&#xa;      }&#xa;    }&#xa;jButton3.setText(&quot;&lt;HTML&gt;Click the &lt;FONT color=\&quot;#000099\&quot;&gt;&lt;U&gt;link&lt;/U&gt;&lt;/FONT&gt;&quot;&#xa;        + &quot; to go to the Java website.&lt;/HTML&gt;&quot;);&#xa;    jButton3.setHorizontalAlignment(SwingConstants.LEFT);&#xa;    jButton3.setBorderPainted(false);&#xa;    jButton3.setOpaque(false);&#xa;    jButton3.setBackground(Color.BLUE);&#xa;    jButton3.setToolTipText(uri.toString());&#xa;    jButton3.addActionListener(new OpenUrlAction());"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="KacstBook" size="36" style="2"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x625;&#x636;&#x627;&#x641;&#x629; &#x645;&#x648;&#x627;&#x642;&#x64a;&#x62a; &#x627;&#x644;&#x635;&#x644;&#x627;&#x629;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x62d;&#x641;&#x638; &#x627;&#x633;&#x645; &#x627;&#x644;&#x645;&#x633;&#x62c;&#x62f; &#x648;&#x645;&#x648;&#x642;&#x639;&#x647; &#x641;&#x64a; &#x642;&#x627;&#x639;&#x62f;&#x647; &#x627;&#x644;&#x628;&#x64a;&#x627;&#x646;&#x627;&#x62a;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
